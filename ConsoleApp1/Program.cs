@@ -17,7 +17,7 @@ namespace ConsoleApp1
                 Thread thread = new Thread(new ParameterizedThreadStart(Multip));
                 thread.Start(i);
             }
-
+            Console.WriteLine("Nice work");
             Console.ReadLine();
         }
 
